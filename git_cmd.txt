@@ -83,6 +83,14 @@ git branch -d branch_name                                        //to delete bra
 git -branch -m main                                              //rename branch 
 =========================================================================================================================================
 
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/rajashekarkola/git_basic_cmd.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details        // when i got this error i deleted remote repo, and pushed to new repo
+
 if we get error of password authentication:
 setting->developers settings->personels access tockens->generate tockens and tick repo checkbox
 
@@ -92,7 +100,17 @@ linux commands
 
 mv task2 task3
 
+==================================================================================================================================================
 
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/rajashekarkola/git_basic_cmd.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details        // when i got this error i deleted remote repo, and pushed to new repo
+
+================================================================================================================================================
 
 
 
