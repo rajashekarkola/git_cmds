@@ -1,0 +1,98 @@
+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 tocken
+
+======================================================================================================================================================
+To start using Git in the Ubuntu terminal and push data to a Git repository, follow these steps:
+
+1. Install Git (if not already installed):
+
+git --version
+
+install it 
+sudo apt update
+sudo apt install git\
+
+2. Configure Git:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+3. Create a new Git repository or clone an existing one:
+a) To create a new Git repository, navigate to the directory where you want to initialize it and run:
+cd /path/to/your/project
+git init
+
+b) To clone an existing Git repository, you need the repository URL. Navigate to the directory where you want to clone the repository and run:
+git clone <repository-url>
+
+===========================================================================================================================================================
+
+git remote add origin https://github.com/rajashekarkola/1st_hello.git       //To add a remote repository named "origin" to your local Git project
+
+git remote -v                                                         // Verify that the remote repository "origin" has been added by using the git remote -v 
+
+4. Add and commit your changes:`
+
+Now, make your changes to the files in the repository. Once you've made your changes, you need to add them to the staging area and commit them with a message:
+
+git add .      //command adds all the changes in the current directory to the staging area. If you want to add specific files, you can use `git add file1 file2
+
+git commit -m "Your commit message here"       //commits
+
+
+git push origin master                               //Git will prompt you to enter your Git hosting credentials (username and password) to authenticate the push.
+  
+git remote rm origine                                //to remove remote origine
+
+rm -rf .git                                           //to re-initialise git
+===============================================================================================================================================
+
+git branch -v                                               //gives branch name
+
+ls -a                                                             // for list files
+
+git pull origin master                                             //you can pull changes from the remote "origin", if somebody push new changes to remote branch
+
+git push -f origin master
+
+git log                                                           //to check history of commits when happend
+
+git reset                                                         //to remove all added file from stagged area
+
+git reset                                                         //to remove specific file
+
+git checkout uniquq id                                          //used to go back in our program,unique id comes when we done git log 
+
+git checkout main                                                 //takes us to last commit
+
+git stash                                       
+
+git pull --rebase origin master                                  //for error :failed to push some ref to
+                                                                 //undo the changes , delete the entire git repo
+git rm --cached -r .                                                       
+                                                                 
+=======================================================================================================================================================
+
+git branch name_of_branch                                        //create new branch
+
+git checkout name_of_branch                                      //to change to new branch from master
+
+git push origin new_branch_name                                   //push to new branch
+
+git branch -d branch_name                                        //to delete branch
+
+git -branch -m main                                              //rename branch 
+=========================================================================================================================================
+
+if we get error of password authentication:
+setting->developers settings->personels access tockens->generate tockens and tick repo checkbox
+
+===========================================================================================================================================
+
+linux commands 
+
+mv task2 task3
+
+
+
+
+
