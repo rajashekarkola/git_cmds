@@ -1,4 +1,4 @@
-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 tocken
+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 tocken
 
 ======================================================================================================================================================
 To start using Git in the Ubuntu terminal and push data to a Git repository, follow these steps:
